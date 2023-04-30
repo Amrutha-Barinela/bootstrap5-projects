@@ -1,0 +1,148 @@
+     <!--navbar starts-->
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+            <a href="" class="navbar-brand text-dark"><b><h1>Home Loan</h1></b></a>
+            <button class="navbar-toggler" type="button" data-bs-target="#demo" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="demo">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link ms-2 text-dark"><b>Home</b></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link ms-2 text-dark"><b>About Us</b></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link ms-2  text-dark"><b>Services</b></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a  class="nav-link dropdown-toggle ms-2 text-dark" data-bs-toggle="dropdown">
+                     <b>Dropdown</b>
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Home Loan</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Credit loan</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Money loan</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Gold loan</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link ms-2 text-dark"><b>Contact</b></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+   <!--nav end-->    
+   --------------------------------------------------------------------------------------------------
+                  <div class="carousel slide" data-bs-ride="carousel" id="move">
+                <ul class="carousel-indicators">
+                    <li data-bs-target="#move" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#move" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#move" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#move" data-bs-slide-to="3"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/1.jpg"  alt="">
+                        <div class="carousel-caption  p-5">
+                            <h1>Make Your Dreams Come<br>True</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam soluta necessitatibus quibusdam voluptate natus corporis perspiciatis quam mollitia quaerat excepturi. Rerum, quae nemo optio accusamus minima neque sunt perspiciatis quos!</p>
+                            <button class="btn btn-danger" data-bs-target="#read1" data-bs-toggle="collapse">readmore</button>
+                            <div class="collapse" id="read1">
+                                <button class="btn btn-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quaerat doloribus asperiores. Corporis, itaque rerum illo, fugit soluta illum explicabo minus repudiandae deleniti exercitationem commodi ducimus aliquam autem repellat sint.</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/6.webp" alt="">
+                        <div class="carousel-caption  p-5">
+                            <h1 class="text-dark">Make Your Dreams Come<br>True</h1>
+                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam soluta necessitatibus quibusdam voluptate natus corporis perspiciatis quam mollitia quaerat excepturi. Rerum, quae nemo optio accusamus minima neque sunt perspiciatis quos!</p>
+                            <button class="btn btn-primary" data-bs-target="#read2" data-bs-toggle="collapse">readmore</button>
+                            <div class="collapse" id="read2">
+                                <button class="btn btn-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quaerat doloribus asperiores. Corporis, itaque rerum illo, fugit soluta illum explicabo minus repudiandae deleniti exercitationem commodi ducimus aliquam autem repellat sint.</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/9.webp" alt="">
+                        <div class="carousel-caption  p-5">
+                            <h1>Make Your Dreams Come<br>True</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam soluta necessitatibus quibusdam voluptate natus corporis perspiciatis quam mollitia quaerat excepturi. Rerum, quae nemo optio accusamus minima neque sunt perspiciatis quos!</p>
+                            <button class="btn btn-secondary text-white" data-bs-target="#read3" data-bs-toggle="collapse">readmore</button>
+                            <div class="collapse" id="read3">
+                                <button class="btn btn-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quaerat doloribus asperiores. Corporis, itaque rerum illo, fugit soluta illum explicabo minus repudiandae deleniti exercitationem commodi ducimus aliquam autem repellat sint.</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/8.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h1>Make Your Dreams Come<br>True</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam soluta necessitatibus quibusdam voluptate natus corporis perspiciatis quam mollitia quaerat excepturi. Rerum, quae nemo optio accusamus minima neque sunt perspiciatis quos!</p>
+                            <button class="btn btn-dark text-white" data-bs-target="#read4" data-bs-toggle="collapse">readmore</button>
+                            <div class="collapse" id="read4">
+                                <button class="btn btn-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quaerat doloribus asperiores. Corporis, itaque rerum illo, fugit soluta illum explicabo minus repudiandae deleniti exercitationem commodi ducimus aliquam autem repellat sint.</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!---left-right controls-->
+             <a href="#move" class="carousel-control-prev" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+             <a href="#move" class="carousel-control-next" data-bs-slide="next" ><span class="carousel-control-next-icon"></span></a>
+            
+            </section>
+     <!---banner section end-->
+     <!---offer section start-->
+<section id="offer">
+    <div class="container">
+        <div class="title text-center pt-4">
+            <h1>Loan Products We Offer</h1>
+            <p>Speed Up The Loan Process</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card border border-white bg-white p-3 shadow mb-3">
+                    <div class="card-body">
+                        <i class="fa-solid fa-house-chimney"></i><br>
+                        <h5 class="card-title">1.Buying a Home</h5>
+                        <div class="card-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque optio odio aut eum officiis corrupti impedit sit, corporis suscipit eveniet, ea earum, dignissimos aliquid nobis eligendi sint magni ex odit.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card border border-white bg-white p-3 shadow mb-3">
+                    <div class="card-body">
+                        <i class="fa-solid fa-building"></i><br>
+                        <h5 class="card-title">2.Refinancing</h5>
+                        <div class="card-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque optio odio aut eum officiis corrupti impedit sit, corporis suscipit eveniet, ea earum, dignissimos aliquid nobis eligendi sint magni ex odit.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card border border-white bg-white p-3 shadow mb-3">
+                    <div class="card-body">
+                        <i class="fa-solid fa-credit-card"></i><br>
+                        <h5 class="card-title"> 3.Credit Service</h5>
+                        <div class="card-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque optio odio aut eum officiis corrupti impedit sit, corporis suscipit eveniet, ea earum, dignissimos aliquid nobis eligendi sint magni ex odit.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
